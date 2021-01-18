@@ -5,11 +5,11 @@ const quote = (value) => {
     throw new Error("Nested JSON cannot be converted to csv");
   }
 
-  if (typeof value !== "string" || value.search(/[\,|\"|\n]/) === -1) {
+  if (typeof value !== "string" || value.search(/[,|"|\n]/) === -1) {
     return value;
   }
 
-  return `"${value.replace(/\"/g, `""`)}"`;
+  return `"${value.replace(/"/g, `""`)}"`;
 };
 
 const getBody = (obj, header) =>
