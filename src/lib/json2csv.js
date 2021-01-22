@@ -41,3 +41,12 @@ export default function json2csv(json) {
 
   return `${header}\n${body}`.trim();
 }
+
+export const isValidJson = (json) => {
+  try {
+    JSON.parse(json);
+  } catch {
+    return false;
+  }
+  return true;
+};
