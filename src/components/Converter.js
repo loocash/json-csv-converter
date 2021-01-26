@@ -6,6 +6,7 @@ import "ace-builds/src-noconflict/mode-text";
 import "ace-builds/src-noconflict/theme-monokai";
 
 import json2csv, { isValidJson } from "../lib/json2csv";
+import csv2json, { isValidCsv } from "../lib/csv2json";
 
 export const Converter = ({ initialJson = "", initialCsv = "" }) => {
   const [json, setJson] = useState(initialJson);
@@ -29,6 +30,9 @@ export const Converter = ({ initialJson = "", initialCsv = "" }) => {
 
   const handleCsvChange = (newCsv) => {
     setCsv(newCsv);
+    if (isValidCsv(newCsv)) {
+      setJson(csv2json(newCsv));
+    }
   };
 
   return (

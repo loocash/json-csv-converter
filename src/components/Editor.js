@@ -12,5 +12,6 @@ export const Editor = ({ mode, onChange, value }) => (
     name={`${mode}_editor`}
     editorProps={{ $blockScrolling: true }}
     width="800px"
+    wrapEnabled={true}
   />
 );
