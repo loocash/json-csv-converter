@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/json-csv-converter/static/css/main.14fc8095.chunk.css",
+    "main.js": "/json-csv-converter/static/js/main.070d029e.chunk.js",
+    "main.js.map": "/json-csv-converter/static/js/main.070d029e.chunk.js.map",
+    "runtime-main.js": "/json-csv-converter/static/js/runtime-main.7f2498ec.js",
+    "runtime-main.js.map": "/json-csv-converter/static/js/runtime-main.7f2498ec.js.map",
+    "static/js/2.889192a2.chunk.js": "/json-csv-converter/static/js/2.889192a2.chunk.js",
+    "static/js/2.889192a2.chunk.js.map": "/json-csv-converter/static/js/2.889192a2.chunk.js.map",
+    "static/js/3.2488c11a.chunk.js": "/json-csv-converter/static/js/3.2488c11a.chunk.js",
+    "static/js/3.2488c11a.chunk.js.map": "/json-csv-converter/static/js/3.2488c11a.chunk.js.map",
+    "index.html": "/json-csv-converter/index.html",
+    "static/css/main.14fc8095.chunk.css.map": "/json-csv-converter/static/css/main.14fc8095.chunk.css.map",
+    "static/js/2.889192a2.chunk.js.LICENSE.txt": "/json-csv-converter/static/js/2.889192a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f2498ec.js",
+    "static/js/2.889192a2.chunk.js",
+    "static/css/main.14fc8095.chunk.css",
+    "static/js/main.070d029e.chunk.js"
+  ]
+}
